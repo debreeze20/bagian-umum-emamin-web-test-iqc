@@ -1,0 +1,114 @@
+.bg-primary-custom {
+    background-color: #527D3C !important;
+}
+
+.bg-secondary-custom-1 {
+    background-color: #035397 !important;
+}
+
+.bg-secondary-custom-2 {
+    background-color: #5089C6 !important;
+}
+
+
+.c-primary-custom {
+    color: #527D3C !important;
+}
+
+.c-secondary-custom-1 {
+    color: #035397 !important;
+}
+
+.c-secondary-custom-2 {
+    color: #5089C6 !important;
+}
+
+.menu-item:hover .menu-title,
+.menu-item.show .menu-title {
+    color: #527D3C !important;
+}
+
+.menu-item:hover .menu-bullet span,
+.menu-item.show .menu-bullet span {
+    color: #527D3C !important;
+    background-color: #527D3C !important;
+}
+
+
+.menu-item:hover .icon-left svg [fill]:not(.permanent):not(g),
+.menu-item.show .icon-left svg [fill]:not(.permanent):not(g) {
+    fill: #527D3C !important
+}
+
+
+.menu-item.active {
+    background: #579539 !important;
+}
+
+.menu-item.active .menu-title {
+    color: #fff !important;
+}
+
+.menu-item.active .menu-bullet span {
+    color: #fff !important;
+    background-color: #527D3C !important;
+}
+
+
+.menu-item.active .icon-left svg [fill]:not(.permanent):not(g) {
+    fill: #fff !important
+}
+
+@media (min-width: 992px) {
+    .header-fixed.toolbar-fixed .wrapper {
+        padding-top: 65px !important
+    }
+}
+
+@media (max-width: 991.98px) {
+    .header-tablet-and-mobile-fixed .wrapper {
+        padding-top: 75px !important;
+    }
+}
+
+
+.swal2-styled.swal2-cancel {
+    color: black !important;
+}
+.c-pointer{
+    cursor: pointer;
+}
+
+.custom-tab-header.active{
+    background-color: #7239EA;
+    color: #fff;
+    border-radius: 5px;
+}
+.custom-tab-header{
+    color: #5E6278;
+    font-size: 15px;
+    padding: 8px 15px !important;
+    margin: 5px;
+    font-weight: 500 !important;
+}
+
+/* for datepicker */
+.mx-input{
+    padding: 20px 10px !important;
+    font-size: 1.1rem !important;
+    line-height: 1.5 !important;
+    color: black !important;
+    border: 1px solid #e4e6ef;
+    width: 100% !important;
+}
+.mx-datepicker{
+    width: 100% !important;
+}
+
+/* for tinytmce */
+.tox-notifications-container{
+    display: none !important;
+  }
+  .text-danger{
+    color: #f1416c!important;
+  }
